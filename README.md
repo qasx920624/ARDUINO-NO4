@@ -1,5 +1,5 @@
 # ARDUINO 第三篇
-題目如下(●=亮 ; ○=滅)
+題目如下(●=亮 ; ○=滅)</p>
 STEP0 ○○○○○○○○</p>
 STEP1 ●○○○○○○○</p>
 STEP2 ○●○○○○○○</p>
@@ -11,7 +11,7 @@ STEP7 ○○○○○○●○</p>
 STEP8 ○○○○○○○●</p>
 STEP9 reset</p>
 
-程式如下
+程式如下</p>
 ```C++
 void setup() {
   // put your setup code here, to run once:
@@ -33,7 +33,7 @@ void loop() {
   
 }
 ```
-加分題題目如下
+加分題題目如下</p>
 STEP0 ○○○○○○○○</p>
 STEP1 ○○○○○○○●</p>
 STEP2 ○○○○○○●○</p>
