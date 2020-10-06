@@ -16,7 +16,7 @@ STEP9 reset</p>
 void setup() {
   for(int i=2;i<10;i++)//設定2~10的腳位
   {
-    pinMode(i,OUTPUT);
+    pinMode(i,OUTPUT);</p>
     digitalWrite(i,HIGH);
   }
 }
