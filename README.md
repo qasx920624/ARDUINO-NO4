@@ -46,7 +46,7 @@ STEP9 reset</p>
 ```C++
 void setup() {
   for(int i=2;i<10;i++)//宣告
-  {</br>
+  {
     pinMode(i,OUTPUT);
     digitalWrite(i,HIGH);
   }
