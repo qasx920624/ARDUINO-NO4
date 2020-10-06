@@ -14,8 +14,7 @@ STEP9 reset</p>
 程式如下</p>
 ```C++
 void setup() {
-  // put your setup code here, to run once:
-  for(int i=2;i<10;i++)
+  for(int i=2;i<10;i++)//設定2~10的腳位
   {
     pinMode(i,OUTPUT);
     digitalWrite(i,HIGH);
@@ -23,8 +22,7 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-   for(int i=10;i>=2;i--)
+   for(int i=10;i>=2;i--)//LED10在最左邊,往LED2方向亮滅(向右
    {
   digitalWrite(i,LOW);
   delay(300);
@@ -47,8 +45,7 @@ STEP9 reset</p>
 程式如下
 ```C++
 void setup() {
-  // put your setup code here, to run once:
-  for(int i=2;i<10;i++)
+  for(int i=2;i<10;i++)//宣告
   {
     pinMode(i,OUTPUT);
     digitalWrite(i,HIGH);
@@ -56,8 +53,7 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-   for(int i=2;i<=10;i++)
+   for(int i=2;i<=10;i++)//LED2在最右邊,往LED10方向亮滅(向左
    {
   digitalWrite(i,LOW);
   delay(300);
